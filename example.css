@@ -1,0 +1,115 @@
+/*------------------------------------*\
+	EXAMPLE.CSS
+\*------------------------------------*/
+/*
+This is an example of my proposed CSS commenting standard.
+
+Author:             Harry Roberts
+Author URL:         csswizardry.com
+Project URL:        https://github.com/csswizardry/css-commenting-standard/
+File version:       1.0
+Edited:             19 June 2011
+*/
+
+
+
+
+
+/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+/*
+Take care of the page's main strucural elements.
+*/
+
+html{
+	font:100%/1.5 Cambria, Georgia, "Times New Roman", serif; /* 16px font with 24px baseline. */
+	/* Grey on white is nicer than full black. */
+	background:#fff;
+	color:#333;
+}
+
+/* Use the body as a wrapper. */
+body{
+	width:940px;
+	margin:0 auto;
+	padding:10px;
+}
+
+/*--- HEADER ---*/
+#header{
+	padding:10px 0;
+	/* Clear floats */
+	width:100%;
+	overflow:hidden;
+}
+
+/*--- FOOTER ---*/
+#footer{
+	clear:both;
+	/* Inverse colour scheme. */
+	background:#111;
+	color:#fff;
+}
+#footer p{
+	margin:0;
+}
+#copyright{
+	font-size:0.75em; /* 12px */
+}
+
+
+
+
+
+/*------------------------------------*\
+	TYPOGRAPHY
+\*------------------------------------*/
+/*--- HEADINGS ---*/
+h1,h2,h3,h4,h5,h6{
+	font-family:"Helvetica Neue", Arial, sans-serif; /* Helvetica on a Mac, Arial on a PC */
+	margin-bottom:24px;
+}
+
+/*--- PARAGRAPHS ---*/
+p{
+	margin-bottom:24px;
+}
+
+
+
+
+
+/*------------------------------------*\
+	PROMO IMAGES
+\*------------------------------------*/
+/*
+These images can be dropped anywhere throughout the site to cross-sell products.
+
+<div class="promo product">
+	<a href="#">
+		<img src="" alt="" />
+		<h3>Prouct title</h3>
+		<p>Description</p>
+	</a>
+</div>
+*/
+
+.promo{
+	padding:10px;
+	background:#c00;
+	color:#fff;
+}
+.promo img,
+.promo h3,
+.promo p{
+	margin:0;
+}
+.promo a:hover h3{
+	text-decoration:underline;
+}
+
+/* Different background for products. */
+.promo.product{
+	background:#09f;
+}
