@@ -1,49 +1,25 @@
-﻿/*------------------------------------*\
-	FILE TITLE
-\*------------------------------------*/
-/*
-Multi-line file info goes here.
-Things such as licenses, tables of contents, author contact information, project URLs and version numbers belong here.
+﻿/*
+	Title: brief description
 
-Author:             Name
-Author URL:         example.com
-File version:       0.0.0
-Edited:             25 June 2011
+	Other important information
 */
-										/*
-										Five carriage
-										returns
-										between sections
-										*/
-/*------------------------------------*\
-	SECTION TITLE
-\*------------------------------------*/
-/*
-Longer/multiline description
-of following code/section.
-*/
-										/* One carriage return following large comment-blocks. */
-.selector{
-	display:block;
-	text-decoration:none;
-	background:red;
+
+/* `Section
+---------------------------------------- */
+.selector {
+	display: block;
+	text-decoration: none;
+	background: red;
 }
-										/* One carriage return preceeding rule comments. */
-/* Describe the rule as a whole. */
+
+/* Describe the ruleset as a whole */
 .hyphen-delimited-selectors{
-	color:#f00;
-	/* Describe a block of code in the rule. */
-	font-weight:bold;
-	text-decoration:none; /* Describe a single line in the rule. */
+	color: #f00;
+	font-weight: bold;
+	text-decoration: none; /* Describe a single line in the ruleset */
 }
-										/* One carriage return between sub-sections. */
-/*--- SUB-SECTION TITLE ---*/
 #an-id{
 	color:#f00;
 	font-weight:bold;
 	text-decoration:none;
 }
-
-/*
-Snippets of markup in the CSS if HTML selectors and structure are imperative.
-*/
